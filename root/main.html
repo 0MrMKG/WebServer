@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>洗衣机饮品</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    #game-area {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background: url("background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .target {
+      position: absolute;
+      border-radius: 50%;
+      cursor: pointer;
+      background-size: cover;
+      background-position: center;
+      clip-path: circle(50%);
+    }
+    #score, #timer {
+      position: absolute;
+      top: 10px;
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+    }
+    #score {
+      left: 10px;
+    }
+    #timer {
+      right: 10px;
+    }
+	#info-button {
+	  position: absolute;
+	  top: 35px;
+	  left: 10px;
+	  font-size: 24px;
+	  font-family: Arial, sans-serif;
+	  color: #999;
+	  background: rgba(255, 255, 255, 0.5);
+	  border: 1px solid #ccc;
+	  border-radius: 5px;
+	  padding: 5px 5px;
+	  cursor: pointer;
+	  z-index: 100;
+	}
+	#info-button:hover {
+	  background: rgba(151, 14, 14, 0.7);
+	}
+  </style>
+</head>
+<body>
+  <div id="game-area">
+    <div id="score">Score: 0</div>
+    <div id="timer">Time: 60</div>
+	<button id="info-button">?</button>
+  </div>
+
+  <script>
+    const gameArea = document.getElementById('game-area');
+    const scoreDisplay = document.getElementById('score');
+    const timerDisplay = document.getElementById('timer');
+	const infoButton = document.getElementById('info-button');
+    let score = 0;
+    let timeLeft = 60;
+    let gameActive = false;
+	infoButton.addEventListener('click', () => {
+      alert('熊从出现到消失历经2秒，得分计算为:y = -2x^2 - x + 10\n0-20秒每次生成1个\n20-45秒每次生成2个\n45秒后每次生成3个\n请无视浮点数误差，在你点击确定以后游戏会立刻开始！');
+    });
+
+    function createTarget() {
+      const target = document.createElement('div');
+      target.classList.add('target');
+      target.style.width = '20px';
+      target.style.height = '20px';
+      target.style.backgroundImage = 'url("bear.png")';
+
+
+      const x = Math.random() * (gameArea.clientWidth - 50);
+      const y = Math.random() * (gameArea.clientHeight - 50);
+      target.style.left = `${x}px`;
+      target.style.top = `${y}px`;
+
+
+      const startTime = Date.now();
+      const sizeInterval = setInterval(() => {
+        const elapsed = (Date.now() - startTime) / 1000;
+        const size = Math.min(20 + elapsed * 15, 50);
+        target.style.width = `${size}px`;
+        target.style.height = `${size}px`;
+        if (elapsed >= 2) {
+          clearInterval(sizeInterval);
+        }
+      }, 30);
+
+
+      target.addEventListener('click', () => {
+        if (!gameActive) return;
+
+        const elapsed = (Date.now() - startTime) / 1000;
+        const point = parseFloat(Math.max(2, (10 - 2 * elapsed * elapsed - elapsed)).toFixed(2));
+        score += point;
+        scoreDisplay.textContent = `Score: ${score}`;
+        clearInterval(sizeInterval);
+        gameArea.removeChild(target);
+      });
+      gameArea.appendChild(target);
+
+      setTimeout(() => {
+        if (gameArea.contains(target)) {
+          clearInterval(sizeInterval);
+          gameArea.removeChild(target);
+        }
+      }, 2000);
+    }
+
+    function spawnTargets(currentTime) {
+      let targetCount = 1;
+      if (currentTime > 20 && currentTime <= 45) {
+        targetCount = 2;
+      }
+      if (currentTime > 45) {
+        targetCount = 3;
+      }
+      for (let i = 0; i < targetCount; i++) {
+        createTarget();
+      }
+    }
+
+    function startTimer() {
+      gameActive = true;
+      const timerInterval = setInterval(() => {
+        timeLeft--;
+        timerDisplay.textContent = `Time: ${timeLeft}`;
+        if (timeLeft <= 0) {
+          clearInterval(timerInterval);
+          gameActive = false;
+          alert(`Score:${score}`);
+        }
+      }, 1000);
+    }
+
+
+    gameArea.addEventListener('click', () => {
+      if (!gameActive && timeLeft === 60) {
+        startTimer();
+      }
+    });
+
+    let currentTime = 0;
+    setInterval(() => {
+      if (gameActive) {
+        currentTime = 60 - timeLeft;
+        spawnTargets(currentTime);
+      }
+    }, 1000);
+  </script>
+</body>
+</html>

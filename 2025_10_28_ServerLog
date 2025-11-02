@@ -1,0 +1,896 @@
+2025-10-28 04:59:43.290634 [info]: deal with the client(192.168.226.129)
+2025-10-28 04:59:43.291032 [info]: adjust timer once
+2025-10-28 04:59:43.291194 [info]: GET /index.html HTTP/1.1
+2025-10-28 04:59:43.291300 [info]: Host: 192.168.226.129:9006
+2025-10-28 04:59:43.291336 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 04:59:43.291370 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 04:59:43.291401 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 04:59:43.291431 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 04:59:43.291461 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 04:59:43.291490 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 04:59:43.291520 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 04:59:43.291550 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 04:59:43.291580 [info]: Connection: keep-alive
+2025-10-28 04:59:43.291610 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 04:59:43.291640 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 04:59:43.291669 [info]: Priority: u=0, i
+2025-10-28 04:59:43.291699 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 04:59:43.291730 [info]: 
+2025-10-28 04:59:43.291809 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 04:59:43.291841 [info]: request:HTTP/1.1 200 OK
+Content-Length:371
+
+2025-10-28 04:59:43.291872 [info]: request:HTTP/1.1 200 OK
+Content-Length:371
+Connection:keep-alive
+
+2025-10-28 04:59:43.291903 [info]: request:HTTP/1.1 200 OK
+Content-Length:371
+Connection:keep-alive
+
+
+2025-10-28 04:59:43.292142 [info]: send data to the client(192.168.226.129)
+2025-10-28 04:59:43.292211 [info]: adjust timer once
+2025-10-28 04:59:43.389468 [info]: deal with the client(192.168.226.129)
+2025-10-28 04:59:43.389750 [info]: adjust timer once
+2025-10-28 04:59:43.389853 [info]: GET /1.jpg HTTP/1.1
+2025-10-28 04:59:43.389938 [info]: Host: 192.168.226.129:9006
+2025-10-28 04:59:43.389980 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 04:59:43.390022 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 04:59:43.390055 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 04:59:43.390090 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 04:59:43.390124 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 04:59:43.390159 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 04:59:43.390192 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 04:59:43.390227 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 04:59:43.390258 [info]: Connection: keep-alive
+2025-10-28 04:59:43.390290 [info]: Referer: http://192.168.226.129:9006/index.html
+2025-10-28 04:59:43.390323 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/index.html
+2025-10-28 04:59:43.390355 [info]: Priority: u=4, i
+2025-10-28 04:59:43.390386 [info]: oop!unknow header: Priority: u=4, i
+2025-10-28 04:59:43.390417 [info]: 
+2025-10-28 04:59:43.390500 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 04:59:43.390534 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+
+2025-10-28 04:59:43.390566 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+2025-10-28 04:59:43.390597 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+
+2025-10-28 04:59:43.390915 [info]: send data to the client(192.168.226.129)
+2025-10-28 04:59:43.391108 [info]: adjust timer once
+2025-10-28 04:59:43.712928 [info]: timer tick
+2025-10-28 04:59:48.713138 [info]: timer tick
+2025-10-28 04:59:53.713469 [info]: timer tick
+2025-10-28 04:59:58.714986 [info]: timer tick
+2025-10-28 05:00:03.715090 [info]: timer tick
+2025-10-28 05:00:08.715277 [info]: timer tick
+2025-10-28 05:00:13.716338 [info]: timer tick
+2025-10-28 05:00:18.716641 [info]: timer tick
+2025-10-28 05:00:23.716755 [info]: timer tick
+2025-10-28 05:00:28.717608 [info]: timer tick
+2025-10-28 05:00:33.718299 [info]: timer tick
+2025-10-28 05:00:38.718543 [info]: timer tick
+2025-10-28 05:00:43.718822 [info]: timer tick
+2025-10-28 05:00:48.719245 [info]: timer tick
+2025-10-28 05:00:53.719425 [info]: timer tick
+2025-10-28 05:00:55.258151 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:00:55.258341 [info]: adjust timer once
+2025-10-28 05:00:55.258833 [info]: GET /index.html HTTP/1.1
+2025-10-28 05:00:55.258898 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:00:55.258934 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:00:55.258967 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:00:55.258999 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:00:55.259030 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:00:55.259061 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:00:55.259092 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:00:55.259123 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:00:55.259157 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:00:55.259189 [info]: Connection: keep-alive
+2025-10-28 05:00:55.259220 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:00:55.259251 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:00:55.259282 [info]: Priority: u=0, i
+2025-10-28 05:00:55.259314 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:00:55.259346 [info]: 
+2025-10-28 05:00:55.259438 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:00:55.259473 [info]: request:HTTP/1.1 200 OK
+Content-Length:371
+
+2025-10-28 05:00:55.259505 [info]: request:HTTP/1.1 200 OK
+Content-Length:371
+Connection:keep-alive
+
+2025-10-28 05:00:55.259536 [info]: request:HTTP/1.1 200 OK
+Content-Length:371
+Connection:keep-alive
+
+
+2025-10-28 05:00:55.259755 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:00:55.259810 [info]: adjust timer once
+2025-10-28 05:00:55.447330 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:00:55.447648 [info]: adjust timer once
+2025-10-28 05:00:55.448229 [info]: GET /1.jpg HTTP/1.1
+2025-10-28 05:00:55.448328 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:00:55.448345 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:00:55.448379 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:00:55.448410 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:00:55.448440 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:00:55.448469 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:00:55.448499 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:00:55.448529 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:00:55.448630 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:00:55.448667 [info]: Connection: keep-alive
+2025-10-28 05:00:55.448700 [info]: Referer: http://192.168.226.129:9006/index.html
+2025-10-28 05:00:55.448735 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/index.html
+2025-10-28 05:00:55.448767 [info]: Priority: u=4, i
+2025-10-28 05:00:55.448798 [info]: oop!unknow header: Priority: u=4, i
+2025-10-28 05:00:55.448828 [info]: 
+2025-10-28 05:00:55.448918 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:00:55.448952 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+
+2025-10-28 05:00:55.448984 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+2025-10-28 05:00:55.449014 [info]: request:HTTP/1.1 200 OK
+Content-Length:725
+Connection:keep-alive
+
+
+2025-10-28 05:00:55.449671 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:00:55.449741 [info]: adjust timer once
+2025-10-28 05:00:55.478997 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:00:55.479154 [info]: adjust timer once
+2025-10-28 05:00:55.479244 [info]: GET /favicon.ico HTTP/1.1
+2025-10-28 05:00:55.479314 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:00:55.479350 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:00:55.479383 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:00:55.479414 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:00:55.479445 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:00:55.479475 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:00:55.479505 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:00:55.479535 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:00:55.479566 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:00:55.479596 [info]: Connection: keep-alive
+2025-10-28 05:00:55.479626 [info]: Referer: http://192.168.226.129:9006/index.html
+2025-10-28 05:00:55.479656 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/index.html
+2025-10-28 05:00:55.479687 [info]: Priority: u=6
+2025-10-28 05:00:55.479717 [info]: oop!unknow header: Priority: u=6
+2025-10-28 05:00:55.479746 [info]: 
+2025-10-28 05:00:55.479822 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:00:55.479854 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+
+2025-10-28 05:00:55.479886 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+2025-10-28 05:00:55.479917 [info]: request:HTTP/1.1 200 OK
+Content-Length:4286
+Connection:keep-alive
+
+
+2025-10-28 05:00:55.480067 [info]: close fd 16
+2025-10-28 05:00:58.721462 [info]: timer tick
+2025-10-28 05:01:01.084905 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:01:01.085141 [info]: adjust timer once
+2025-10-28 05:01:01.085305 [info]: GET /main.html HTTP/1.1
+2025-10-28 05:01:01.085367 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:01:01.085403 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:01:01.085436 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:01:01.085468 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:01:01.085499 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:01:01.085529 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:01:01.085560 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:01:01.085590 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:01:01.085620 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:01:01.085716 [info]: Connection: keep-alive
+2025-10-28 05:01:01.085753 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:01:01.085784 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:01:01.085815 [info]: Priority: u=0, i
+2025-10-28 05:01:01.085845 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:01:01.085875 [info]: 
+2025-10-28 05:01:01.086005 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:01:01.086031 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+
+2025-10-28 05:01:01.086055 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+2025-10-28 05:01:01.086086 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+
+2025-10-28 05:01:01.086449 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:01:01.086565 [info]: adjust timer once
+2025-10-28 05:01:01.185983 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:01:01.186166 [info]: adjust timer once
+2025-10-28 05:01:01.186302 [info]: GET /background.jpg HTTP/1.1
+2025-10-28 05:01:01.186343 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:01:01.186377 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:01:01.186409 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:01:01.186440 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:01:01.186471 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:01:01.186502 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:01:01.186532 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:01:01.186562 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:01:01.186593 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:01:01.186624 [info]: Connection: keep-alive
+2025-10-28 05:01:01.186655 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:01:01.186686 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:01:01.186717 [info]: Priority: u=4, i
+2025-10-28 05:01:01.186747 [info]: oop!unknow header: Priority: u=4, i
+2025-10-28 05:01:01.186777 [info]: 
+2025-10-28 05:01:01.186857 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:01:01.186889 [info]: request:HTTP/1.1 200 OK
+Content-Length:557759
+
+2025-10-28 05:01:01.186919 [info]: request:HTTP/1.1 200 OK
+Content-Length:557759
+Connection:keep-alive
+
+2025-10-28 05:01:01.186950 [info]: request:HTTP/1.1 200 OK
+Content-Length:557759
+Connection:keep-alive
+
+
+2025-10-28 05:01:01.187570 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:01:01.187691 [info]: adjust timer once
+2025-10-28 05:01:03.721609 [info]: timer tick
+2025-10-28 05:01:08.721798 [info]: timer tick
+2025-10-28 05:01:13.722038 [info]: timer tick
+2025-10-28 05:01:18.722501 [info]: timer tick
+2025-10-28 05:01:23.723800 [info]: timer tick
+2025-10-28 05:01:28.726773 [info]: timer tick
+2025-10-28 05:01:33.727050 [info]: timer tick
+2025-10-28 05:01:33.760848 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:01:33.760963 [info]: adjust timer once
+2025-10-28 05:01:33.761325 [info]: GET /bear.png HTTP/1.1
+2025-10-28 05:01:33.761434 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:01:33.761473 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:01:33.761506 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:01:33.761537 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:01:33.761568 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:01:33.761597 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:01:33.761630 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:01:33.761659 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:01:33.761689 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:01:33.761787 [info]: Connection: keep-alive
+2025-10-28 05:01:33.761825 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:01:33.761858 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:01:33.761891 [info]: Priority: u=4, i
+2025-10-28 05:01:33.761922 [info]: oop!unknow header: Priority: u=4, i
+2025-10-28 05:01:33.761952 [info]: 
+2025-10-28 05:01:33.762041 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:01:33.762074 [info]: request:HTTP/1.1 200 OK
+Content-Length:14309
+
+2025-10-28 05:01:33.762106 [info]: request:HTTP/1.1 200 OK
+Content-Length:14309
+Connection:keep-alive
+
+2025-10-28 05:01:33.762137 [info]: request:HTTP/1.1 200 OK
+Content-Length:14309
+Connection:keep-alive
+
+
+2025-10-28 05:01:33.762336 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:01:33.762381 [info]: adjust timer once
+2025-10-28 05:01:38.727458 [info]: timer tick
+2025-10-28 05:01:43.728552 [info]: timer tick
+2025-10-28 05:01:48.729451 [info]: timer tick
+2025-10-28 05:01:53.729596 [info]: timer tick
+2025-10-28 05:01:58.729895 [info]: timer tick
+2025-10-28 05:02:03.730803 [info]: timer tick
+2025-10-28 05:02:08.730934 [info]: timer tick
+2025-10-28 05:02:13.731162 [info]: timer tick
+2025-10-28 05:02:18.731353 [info]: timer tick
+2025-10-28 05:02:23.731798 [info]: timer tick
+2025-10-28 05:02:28.732418 [info]: timer tick
+2025-10-28 05:02:33.733510 [info]: timer tick
+2025-10-28 05:02:38.734963 [info]: timer tick
+2025-10-28 05:02:43.735357 [info]: timer tick
+2025-10-28 05:02:48.736584 [info]: timer tick
+2025-10-28 05:02:53.737335 [info]: timer tick
+2025-10-28 05:02:58.739379 [info]: timer tick
+2025-10-28 05:03:03.739707 [info]: timer tick
+2025-10-28 05:03:08.740460 [info]: timer tick
+2025-10-28 05:03:13.740786 [info]: timer tick
+2025-10-28 05:03:18.742237 [info]: timer tick
+2025-10-28 05:03:23.742380 [info]: timer tick
+2025-10-28 05:03:28.745441 [info]: timer tick
+2025-10-28 05:03:33.746132 [info]: timer tick
+2025-10-28 05:03:38.747593 [info]: timer tick
+2025-10-28 05:03:43.747913 [info]: timer tick
+2025-10-28 05:03:45.352734 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:03:45.352936 [info]: adjust timer once
+2025-10-28 05:03:45.353073 [info]: GET /main.html HTTP/1.1
+2025-10-28 05:03:45.353122 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:03:45.353156 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:03:45.353188 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:03:45.353223 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:03:45.353288 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:03:45.353319 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:03:45.353351 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:03:45.353381 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:03:45.353412 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:03:45.353442 [info]: Connection: keep-alive
+2025-10-28 05:03:45.353473 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:03:45.353504 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:03:45.353535 [info]: Priority: u=0, i
+2025-10-28 05:03:45.353565 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:03:45.353595 [info]: 
+2025-10-28 05:03:45.353673 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:03:45.353706 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+
+2025-10-28 05:03:45.353737 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+2025-10-28 05:03:45.353769 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+
+2025-10-28 05:03:45.353933 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:03:45.354042 [info]: adjust timer once
+2025-10-28 05:03:45.438791 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:03:45.439027 [info]: adjust timer once
+2025-10-28 05:03:45.439350 [info]: GET /background.jpg HTTP/1.1
+2025-10-28 05:03:45.439489 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:03:45.439536 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:03:45.439572 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:03:45.439606 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:03:45.439637 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:03:45.439667 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:03:45.439698 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:03:45.439729 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:03:45.439783 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:03:45.439815 [info]: Connection: keep-alive
+2025-10-28 05:03:45.439846 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:03:45.439878 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:03:45.439909 [info]: Priority: u=5
+2025-10-28 05:03:45.439940 [info]: oop!unknow header: Priority: u=5
+2025-10-28 05:03:45.439970 [info]: 
+2025-10-28 05:03:45.440086 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:03:45.440122 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+
+2025-10-28 05:03:45.440154 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+2025-10-28 05:03:45.440184 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+
+2025-10-28 05:03:45.440680 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:03:45.440842 [info]: adjust timer once
+2025-10-28 05:03:48.748218 [info]: timer tick
+2025-10-28 05:03:53.748466 [info]: timer tick
+2025-10-28 05:03:55.451118 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:03:55.451371 [info]: adjust timer once
+2025-10-28 05:03:55.451663 [info]: GET /bear.png HTTP/1.1
+2025-10-28 05:03:55.451725 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:03:55.451760 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:03:55.451792 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:03:55.451822 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:03:55.451853 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:03:55.451883 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:03:55.451913 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:03:55.451943 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:03:55.451973 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:03:55.452003 [info]: Connection: keep-alive
+2025-10-28 05:03:55.452033 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:03:55.452063 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:03:55.452093 [info]: Priority: u=5
+2025-10-28 05:03:55.452125 [info]: oop!unknow header: Priority: u=5
+2025-10-28 05:03:55.452154 [info]: 
+2025-10-28 05:03:55.452236 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:03:55.452270 [info]: request:HTTP/1.1 200 OK
+Content-Length:14309
+
+2025-10-28 05:03:55.452301 [info]: request:HTTP/1.1 200 OK
+Content-Length:14309
+Connection:keep-alive
+
+2025-10-28 05:03:55.452334 [info]: request:HTTP/1.1 200 OK
+Content-Length:14309
+Connection:keep-alive
+
+
+2025-10-28 05:03:55.452535 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:03:55.452636 [info]: adjust timer once
+2025-10-28 05:03:58.748657 [info]: timer tick
+2025-10-28 05:04:03.749905 [info]: timer tick
+2025-10-28 05:04:08.750065 [info]: timer tick
+2025-10-28 05:04:13.750859 [info]: timer tick
+2025-10-28 05:04:18.751124 [info]: timer tick
+2025-10-28 05:04:23.751274 [info]: timer tick
+2025-10-28 05:04:28.751548 [info]: timer tick
+2025-10-28 05:04:30.616732 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:04:30.617042 [info]: adjust timer once
+2025-10-28 05:04:30.617279 [info]: GET /main.html HTTP/1.1
+2025-10-28 05:04:30.617403 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:04:30.617450 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:04:30.617485 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:04:30.617567 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:04:30.617614 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:04:30.617682 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:04:30.617718 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:04:30.617750 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:04:30.617781 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:04:30.617812 [info]: Connection: keep-alive
+2025-10-28 05:04:30.617844 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:04:30.617875 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:04:30.617906 [info]: Priority: u=0, i
+2025-10-28 05:04:30.617937 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:04:30.617980 [info]: 
+2025-10-28 05:04:30.618073 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:04:30.618108 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+
+2025-10-28 05:04:30.618140 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+2025-10-28 05:04:30.618170 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+
+2025-10-28 05:04:30.618370 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:04:30.618409 [info]: adjust timer once
+2025-10-28 05:04:30.689956 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:04:30.690029 [info]: adjust timer once
+2025-10-28 05:04:30.690057 [info]: GET /background.jpg HTTP/1.1
+2025-10-28 05:04:30.690074 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:04:30.690089 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:04:30.690112 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:04:30.690143 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:04:30.690175 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:04:30.690205 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:04:30.690236 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:04:30.690267 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:04:30.690298 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:04:30.690330 [info]: Connection: keep-alive
+2025-10-28 05:04:30.690362 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:04:30.690394 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:04:30.690425 [info]: Priority: u=5
+2025-10-28 05:04:30.690456 [info]: oop!unknow header: Priority: u=5
+2025-10-28 05:04:30.690486 [info]: 
+2025-10-28 05:04:30.690574 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:04:30.690609 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+
+2025-10-28 05:04:30.690640 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+2025-10-28 05:04:30.690670 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+
+2025-10-28 05:04:30.691123 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:04:30.691298 [info]: adjust timer once
+2025-10-28 05:04:33.751974 [info]: timer tick
+2025-10-28 05:04:38.752457 [info]: timer tick
+2025-10-28 05:04:43.752652 [info]: timer tick
+2025-10-28 05:04:48.753428 [info]: timer tick
+2025-10-28 05:04:53.753676 [info]: timer tick
+2025-10-28 05:04:58.753793 [info]: timer tick
+2025-10-28 05:05:03.754003 [info]: timer tick
+2025-10-28 05:05:08.754139 [info]: timer tick
+2025-10-28 05:05:13.754570 [info]: timer tick
+2025-10-28 05:05:18.754807 [info]: timer tick
+2025-10-28 05:05:23.755168 [info]: timer tick
+2025-10-28 05:05:28.756565 [info]: timer tick
+2025-10-28 05:05:33.756771 [info]: timer tick
+2025-10-28 05:05:38.764088 [info]: timer tick
+2025-10-28 05:05:43.765863 [info]: timer tick
+2025-10-28 05:05:48.766232 [info]: timer tick
+2025-10-28 05:05:53.766377 [info]: timer tick
+2025-10-28 05:05:58.766556 [info]: timer tick
+2025-10-28 05:06:03.766798 [info]: timer tick
+2025-10-28 05:06:08.766849 [info]: timer tick
+2025-10-28 05:06:13.767036 [info]: timer tick
+2025-10-28 05:06:18.767135 [info]: timer tick
+2025-10-28 05:06:23.769387 [info]: timer tick
+2025-10-28 05:06:28.770046 [info]: timer tick
+2025-10-28 05:06:33.770260 [info]: timer tick
+2025-10-28 05:06:38.771497 [info]: timer tick
+2025-10-28 05:06:43.778118 [info]: timer tick
+2025-10-28 05:06:48.778361 [info]: timer tick
+2025-10-28 05:06:53.783095 [info]: timer tick
+2025-10-28 05:06:58.784375 [info]: timer tick
+2025-10-28 05:07:03.784567 [info]: timer tick
+2025-10-28 05:07:08.784817 [info]: timer tick
+2025-10-28 05:07:13.784987 [info]: timer tick
+2025-10-28 05:07:18.786361 [info]: timer tick
+2025-10-28 05:07:23.786562 [info]: timer tick
+2025-10-28 05:07:28.791686 [info]: timer tick
+2025-10-28 05:07:33.793296 [info]: timer tick
+2025-10-28 05:07:38.795828 [info]: timer tick
+2025-10-28 05:07:43.796068 [info]: timer tick
+2025-10-28 05:07:48.796372 [info]: timer tick
+2025-10-28 05:07:53.796466 [info]: timer tick
+2025-10-28 05:07:58.797461 [info]: timer tick
+2025-10-28 05:08:03.798434 [info]: timer tick
+2025-10-28 05:08:08.800202 [info]: timer tick
+2025-10-28 05:08:13.800720 [info]: timer tick
+2025-10-28 05:08:18.800869 [info]: timer tick
+2025-10-28 05:08:23.801072 [info]: timer tick
+2025-10-28 05:08:28.801989 [info]: timer tick
+2025-10-28 05:08:33.804162 [info]: timer tick
+2025-10-28 05:08:38.806322 [info]: timer tick
+2025-10-28 05:08:43.806442 [info]: timer tick
+2025-10-28 05:08:48.807384 [info]: timer tick
+2025-10-28 05:08:53.811733 [info]: timer tick
+2025-10-28 05:08:58.811839 [info]: timer tick
+2025-10-28 05:09:03.813628 [info]: timer tick
+2025-10-28 05:09:08.814270 [info]: timer tick
+2025-10-28 05:09:13.815685 [info]: timer tick
+2025-10-28 05:09:18.818427 [info]: timer tick
+2025-10-28 05:09:23.819109 [info]: timer tick
+2025-10-28 05:09:28.819430 [info]: timer tick
+2025-10-28 05:09:33.819533 [info]: timer tick
+2025-10-28 05:09:38.819844 [info]: timer tick
+2025-10-28 05:09:43.822076 [info]: timer tick
+2025-10-28 05:09:48.822284 [info]: timer tick
+2025-10-28 05:09:53.822952 [info]: timer tick
+2025-10-28 05:09:58.823927 [info]: timer tick
+2025-10-28 05:10:03.824516 [info]: timer tick
+2025-10-28 05:10:08.824726 [info]: timer tick
+2025-10-28 05:10:13.826261 [info]: timer tick
+2025-10-28 05:10:18.827080 [info]: timer tick
+2025-10-28 05:10:23.830804 [info]: timer tick
+2025-10-28 05:10:28.831049 [info]: timer tick
+2025-10-28 05:10:33.831718 [info]: timer tick
+2025-10-28 05:10:38.832839 [info]: timer tick
+2025-10-28 05:10:43.833530 [info]: timer tick
+2025-10-28 05:10:48.833897 [info]: timer tick
+2025-10-28 05:10:53.833982 [info]: timer tick
+2025-10-28 05:10:58.834066 [info]: timer tick
+2025-10-28 05:11:03.834945 [info]: timer tick
+2025-10-28 05:11:08.835111 [info]: timer tick
+2025-10-28 05:11:13.835218 [info]: timer tick
+2025-10-28 05:11:18.835891 [info]: timer tick
+2025-10-28 05:11:23.835984 [info]: timer tick
+2025-10-28 05:11:28.836101 [info]: timer tick
+2025-10-28 05:11:33.836718 [info]: timer tick
+2025-10-28 05:11:38.837802 [info]: timer tick
+2025-10-28 05:11:43.840331 [info]: timer tick
+2025-10-28 05:11:48.840763 [info]: timer tick
+2025-10-28 05:11:53.840888 [info]: timer tick
+2025-10-28 05:11:58.842241 [info]: timer tick
+2025-10-28 05:12:03.842829 [info]: timer tick
+2025-10-28 05:12:08.846066 [info]: timer tick
+2025-10-28 05:12:13.846286 [info]: timer tick
+2025-10-28 05:12:18.846383 [info]: timer tick
+2025-10-28 05:12:23.846803 [info]: timer tick
+2025-10-28 05:12:28.847164 [info]: timer tick
+2025-10-28 05:12:33.847328 [info]: timer tick
+2025-10-28 05:12:38.847897 [info]: timer tick
+2025-10-28 05:12:43.847994 [info]: timer tick
+2025-10-28 05:12:48.848409 [info]: timer tick
+2025-10-28 05:12:53.851236 [info]: timer tick
+2025-10-28 05:12:58.851740 [info]: timer tick
+2025-10-28 05:13:03.853850 [info]: timer tick
+2025-10-28 05:13:08.854186 [info]: timer tick
+2025-10-28 05:13:13.854625 [info]: timer tick
+2025-10-28 05:13:18.854804 [info]: timer tick
+2025-10-28 05:13:23.855147 [info]: timer tick
+2025-10-28 05:13:28.855468 [info]: timer tick
+2025-10-28 05:13:33.856222 [info]: timer tick
+2025-10-28 05:13:38.859068 [info]: timer tick
+2025-10-28 05:13:43.859242 [info]: timer tick
+2025-10-28 05:13:48.859486 [info]: timer tick
+2025-10-28 05:13:53.859669 [info]: timer tick
+2025-10-28 05:13:58.859850 [info]: timer tick
+2025-10-28 05:14:03.860850 [info]: timer tick
+2025-10-28 05:14:08.861322 [info]: timer tick
+2025-10-28 05:14:13.861422 [info]: timer tick
+2025-10-28 05:14:18.861543 [info]: timer tick
+2025-10-28 05:14:23.861687 [info]: timer tick
+2025-10-28 05:14:28.862492 [info]: timer tick
+2025-10-28 05:14:33.862713 [info]: timer tick
+2025-10-28 05:14:38.862921 [info]: timer tick
+2025-10-28 05:14:43.863100 [info]: timer tick
+2025-10-28 05:15:46.247188 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:15:46.247611 [info]: adjust timer once
+2025-10-28 05:15:46.247816 [info]: GET /main.html HTTP/1.1
+2025-10-28 05:15:46.247945 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:15:46.247995 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.248031 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.248063 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:15:46.248095 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:15:46.248125 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.248156 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.248188 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.248220 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.248250 [info]: Connection: keep-alive
+2025-10-28 05:15:46.248282 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:15:46.248313 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:15:46.248343 [info]: Priority: u=0, i
+2025-10-28 05:15:46.248374 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:15:46.248404 [info]: 
+2025-10-28 05:15:46.248493 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:15:46.248527 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+
+2025-10-28 05:15:46.248558 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+2025-10-28 05:15:46.248589 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+
+2025-10-28 05:15:46.248929 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:15:46.249036 [info]: adjust timer once
+2025-10-28 05:15:46.335110 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:15:46.335406 [info]: adjust timer once
+2025-10-28 05:15:46.335825 [info]: GET /background.jpg HTTP/1.1
+2025-10-28 05:15:46.335955 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:15:46.336003 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.336040 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.336073 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:15:46.336105 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:15:46.336137 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.336168 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.336200 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.336405 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.336468 [info]: Connection: keep-alive
+2025-10-28 05:15:46.336502 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:15:46.336556 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:15:46.336591 [info]: Priority: u=5
+2025-10-28 05:15:46.336622 [info]: oop!unknow header: Priority: u=5
+2025-10-28 05:15:46.336653 [info]: 
+2025-10-28 05:15:46.336734 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:15:46.336768 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+
+2025-10-28 05:15:46.336819 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+2025-10-28 05:15:46.336851 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+
+2025-10-28 05:15:46.337217 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:15:46.337354 [info]: adjust timer once
+2025-10-28 05:15:46.900681 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:15:46.900901 [info]: adjust timer once
+2025-10-28 05:15:46.900974 [info]: GET /main.html HTTP/1.1
+2025-10-28 05:15:46.901031 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:15:46.901068 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.901103 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.901135 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:15:46.901165 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:15:46.901195 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.901253 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.901287 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.901319 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.901349 [info]: Connection: keep-alive
+2025-10-28 05:15:46.901381 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:15:46.901412 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:15:46.901444 [info]: Priority: u=0, i
+2025-10-28 05:15:46.901475 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:15:46.901505 [info]: 
+2025-10-28 05:15:46.901587 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:15:46.901621 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+
+2025-10-28 05:15:46.901653 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+2025-10-28 05:15:46.901684 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+
+2025-10-28 05:15:46.902077 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:15:46.902189 [info]: adjust timer once
+2025-10-28 05:15:46.967566 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:15:46.967807 [info]: adjust timer once
+2025-10-28 05:15:46.967953 [info]: GET /background.jpg HTTP/1.1
+2025-10-28 05:15:46.967995 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:15:46.968028 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.968060 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:46.968091 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:15:46.968123 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:15:46.968154 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.968187 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:46.968217 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.968248 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:46.968278 [info]: Connection: keep-alive
+2025-10-28 05:15:46.968310 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:15:46.968341 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:15:46.968372 [info]: Priority: u=5
+2025-10-28 05:15:46.968403 [info]: oop!unknow header: Priority: u=5
+2025-10-28 05:15:46.968433 [info]: 
+2025-10-28 05:15:46.968520 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:15:46.968554 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+
+2025-10-28 05:15:46.968585 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+2025-10-28 05:15:46.968616 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+
+2025-10-28 05:15:46.969078 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:15:46.969261 [info]: adjust timer once
+2025-10-28 05:15:47.444942 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:15:47.445613 [info]: adjust timer once
+2025-10-28 05:15:47.445717 [info]: GET /main.html HTTP/1.1
+2025-10-28 05:15:47.446098 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:15:47.446150 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:47.446185 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:47.446295 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:15:47.446335 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:15:47.446368 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:47.446400 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:47.446431 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:47.446462 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:47.446493 [info]: Connection: keep-alive
+2025-10-28 05:15:47.446523 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:15:47.446556 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:15:47.446586 [info]: Priority: u=0, i
+2025-10-28 05:15:47.446619 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:15:47.446649 [info]: 
+2025-10-28 05:15:47.446736 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:15:47.446770 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+
+2025-10-28 05:15:47.446801 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+2025-10-28 05:15:47.446832 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+
+2025-10-28 05:15:47.447206 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:15:47.447321 [info]: adjust timer once
+2025-10-28 05:15:47.498187 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:15:47.498378 [info]: adjust timer once
+2025-10-28 05:15:47.498514 [info]: GET /background.jpg HTTP/1.1
+2025-10-28 05:15:47.498567 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:15:47.498602 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:47.498634 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:15:47.498665 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:15:47.498695 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:15:47.498725 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:47.498756 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:15:47.498786 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:47.498817 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:15:47.498848 [info]: Connection: keep-alive
+2025-10-28 05:15:47.498879 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:15:47.498910 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:15:47.498940 [info]: Priority: u=5
+2025-10-28 05:15:47.498971 [info]: oop!unknow header: Priority: u=5
+2025-10-28 05:15:47.499002 [info]: 
+2025-10-28 05:15:47.499086 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:15:47.499119 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+
+2025-10-28 05:15:47.499150 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+2025-10-28 05:15:47.499181 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+
+2025-10-28 05:15:47.499579 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:15:47.499734 [info]: adjust timer once
+2025-10-28 05:15:48.384104 [info]: timer tick
+2025-10-28 05:20:39.308822 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:20:39.309170 [info]: adjust timer once
+2025-10-28 05:20:39.309363 [info]: GET /main.html HTTP/1.1
+2025-10-28 05:20:39.309481 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:20:39.309529 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:20:39.309565 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:20:39.309596 [info]: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:20:39.309627 [info]: oop!unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2025-10-28 05:20:39.309657 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:20:39.309687 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:20:39.309717 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:20:39.309748 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:20:39.309777 [info]: Connection: keep-alive
+2025-10-28 05:20:39.309809 [info]: Upgrade-Insecure-Requests: 1
+2025-10-28 05:20:39.309839 [info]: oop!unknow header: Upgrade-Insecure-Requests: 1
+2025-10-28 05:20:39.309869 [info]: Priority: u=0, i
+2025-10-28 05:20:39.309899 [info]: oop!unknow header: Priority: u=0, i
+2025-10-28 05:20:39.309929 [info]: 
+2025-10-28 05:20:39.310008 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:20:39.310041 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+
+2025-10-28 05:20:39.310074 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+2025-10-28 05:20:39.310105 [info]: request:HTTP/1.1 200 OK
+Content-Length:4366
+Connection:keep-alive
+
+
+2025-10-28 05:20:39.310303 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:20:39.310400 [info]: adjust timer once
+2025-10-28 05:20:39.362404 [info]: deal with the client(192.168.226.129)
+2025-10-28 05:20:39.362694 [info]: adjust timer once
+2025-10-28 05:20:39.362800 [info]: GET /background.jpg HTTP/1.1
+2025-10-28 05:20:39.363074 [info]: Host: 192.168.226.129:9006
+2025-10-28 05:20:39.363122 [info]: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:20:39.363157 [info]: oop!unknow header: User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0
+2025-10-28 05:20:39.363188 [info]: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:20:39.363220 [info]: oop!unknow header: Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+2025-10-28 05:20:39.363250 [info]: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:20:39.363282 [info]: oop!unknow header: Accept-Language: en-US,en;q=0.5
+2025-10-28 05:20:39.363312 [info]: Accept-Encoding: gzip, deflate
+2025-10-28 05:20:39.363341 [info]: oop!unknow header: Accept-Encoding: gzip, deflate
+2025-10-28 05:20:39.363370 [info]: Connection: keep-alive
+2025-10-28 05:20:39.363401 [info]: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:20:39.363433 [info]: oop!unknow header: Referer: http://192.168.226.129:9006/main.html
+2025-10-28 05:20:39.363464 [info]: Priority: u=4, i
+2025-10-28 05:20:39.363495 [info]: oop!unknow header: Priority: u=4, i
+2025-10-28 05:20:39.363525 [info]: 
+2025-10-28 05:20:39.363610 [info]: request:HTTP/1.1 200 OK
+
+2025-10-28 05:20:39.363642 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+
+2025-10-28 05:20:39.363673 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+2025-10-28 05:20:39.363702 [info]: request:HTTP/1.1 200 OK
+Content-Length:185829
+Connection:keep-alive
+
+
+2025-10-28 05:20:39.364419 [info]: send data to the client(192.168.226.129)
+2025-10-28 05:20:39.364620 [info]: adjust timer once
+2025-10-28 05:20:41.593791 [info]: timer tick
