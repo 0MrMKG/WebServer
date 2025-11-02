@@ -10,26 +10,33 @@ class sem
 public:
     sem()
     {
+        //&m_sem   ：信号量对象
         if (sem_init(&m_sem, 0, 0) != 0)
         {
-            throw std::exception();
+            throw std::exception(); // 初始化失败，抛出异常
         }
     }
     sem(int num)
     {
         if (sem_init(&m_sem, 0, num) != 0)
         {
-            throw std::exception();
+            throw std::exception(); // 初始化失败，抛出异常
         }
     }
     ~sem()
     {
         sem_destroy(&m_sem);
     }
+    // P操作：等待资源
+    // 如果信号量 > 0，则减1，立即返回
+    // 如果信号量 = 0，则阻塞等待，直到其他线程post
     bool wait()
     {
         return sem_wait(&m_sem) == 0;
     }
+
+    // V操作：释放资源
+    // 将信号量 +1，如果有线程因为wait阻塞，会唤醒其中一个
     bool post()
     {
         return sem_post(&m_sem) == 0;
@@ -71,6 +78,11 @@ public:
 private:
     pthread_mutex_t m_mutex;
 };
+
+
+
+
+
 class cond
 {
 public:
